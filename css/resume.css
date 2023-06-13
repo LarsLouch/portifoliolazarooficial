@@ -1,0 +1,252 @@
+/*!
+ * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 54px;
+  color: var(--color-text);
+  background-color: var(--bg)
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var("--color-headings");
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+ 
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #454641;
+  color: #0003c5 !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons  , i#face:hover ,i#linkedin:hover {
+  color: rgb(28, 112, 168);
+}
+
+.social-icons i#twitter:hover{
+  color: rgb(55, 175, 255);
+}
+
+.social-icons i#github:hover{
+  color: rgb(197, 67, 214);
+}
+
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #BD5D38;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #d48a6e;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(61, 41, 41, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+
+  .custom-control.custom-switch{
+    position: relative;
+    right: 10px;
+  }
+}
+
+section.resume-section {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+  max-width: 65rem;
+}
+
+/* section.resume-section #education {
+   padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+
+} */
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 50vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+
+  .custom-control.custom-switch{
+    position: relative;
+    right: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  .custom-control.custom-switch{
+    position: relative;
+    right: 10px;
+  }
+}
+
+.bg-primary {
+  background-color: rgb(0, 0, 0) !important;
+}
+
+span#text-primary{
+  color: rgb(85, 155, 20)
+}
+
+
+ 
+
+a {
+  color: rgb(0, 0, 0);
+}
+
+a:hover, a:focus, a:active {
+  color: #2cbe45;
+}
+
+
+#html-icon i:hover{
+  color:rgb(255, 81, 0);
+}
+
+#css-icon i:hover{
+  color: rgb(0, 89, 255);
+}
+
+#wp-icon i:hover{
+  color: rgb(0, 89, 255);
+}
+
+#ruby-icon i:hover{
+  color: red;
+  
+}
+
+#node-icon i:hover, #npm-icon i:hover{
+  color:green;
+}
+
+#js-icon i:hover{
+  color:rgb(255, 145, 0);
+}
+
+#c-icon i:hover{
+  color:rgb(131, 5, 148);
+}
+
+#react-icon i:hover{
+  color: rgb(0, 89, 255);
+}
+
+.custom-control.custom-switch{
+  float: right;
+  position: relative;
+  right: 200px;
+}
+
